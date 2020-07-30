@@ -1,0 +1,15 @@
+img {
+  max-width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+h1 {
+  font-size: 84px;
+  font-family: Nunito, sans-serif;
+  display: inline-flex;
+  vertical-align: middle;
+  margin-top: -400px;
+  margin-left: 30px;
+  margin-right: 30px;
+}

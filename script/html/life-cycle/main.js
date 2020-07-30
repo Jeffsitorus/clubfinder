@@ -14,7 +14,6 @@
 //   imageFigureElement.remove();
 // }, 3000);
 
-
 const imageFigureElement = document.createElement("image-figure");
 
 imageFigureElement.setAttribute("src", "https://i.imgur.com/iJq78XH.jpg");

@@ -44,7 +44,7 @@ class ImageFigure extends HTMLElement {
         max-width: 220px;
         margin: auto;
       }
-      
+
       figure > img {
         max-width :220px;
       }
@@ -56,7 +56,7 @@ class ImageFigure extends HTMLElement {
         padding: 3px;
         text-align: center;
       }
-      
+
     </style>
       <figure>
         <img src="${this.src}" alt="${this.alt}">
@@ -64,6 +64,7 @@ class ImageFigure extends HTMLElement {
       </figure>
     `;
   }
+
   attributeChangedCallback(name, oldValue, newValue) {
     this[name] = newValue;
     this.render();
